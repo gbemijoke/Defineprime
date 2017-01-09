@@ -6,7 +6,7 @@ module.exports = {
   for(i=2;i<=inputval;i++)
   {
       var isPrime=true;
-      for(j=2;j<i;j++)
+      for(j=2;j<=Math.pow(i,0.5);j++)
       {
         if(i%j==0)
         {
